@@ -1,0 +1,23 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "tictactoe",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsara636/ticky.git"
+  },
+  "author": "Samsara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samsara636/ticky/issues"
+  },
+  "homepage": "https://github.com/samsara636/ticky#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
