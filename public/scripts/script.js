@@ -30,7 +30,7 @@ function turnClick(square){
     console.log(square.target.id)
     if(typeof orgiBoard[square.target.id] == "number"){
         turn(square.target.id, huPlayer)
-    if(!checkTie()){
+    if(!checkTie() && !checkWin(orgiBoard, huPlayer)){
         turn(bestSpot(), aiPlayer)
     } 
  }
